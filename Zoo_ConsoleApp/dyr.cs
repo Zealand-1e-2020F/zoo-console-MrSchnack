@@ -10,7 +10,7 @@ namespace Zoo_ConsoleApp
     public class Dyr
     {
         public string DyreNavn { get; }
-
+        public int AntalBen { get; set; }
         /// <summary>
         /// default constructor
         /// </summary>
