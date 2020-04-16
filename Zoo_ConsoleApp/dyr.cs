@@ -10,14 +10,9 @@ namespace Zoo_ConsoleApp
     public class Dyr
     {
         public string DyreNavn { get; }
-        public int AntalBen { get; set; }
-        /// <summary>
-        /// default constructor
-        /// </summary>
-        public Dyr()
-        {
 
-        }
+        /// <summary>
+
 
         /// <summary>
         /// cosntructor som tager dyrenavn som parameter
@@ -29,6 +24,9 @@ namespace Zoo_ConsoleApp
 
         }
 
-
+        public override string ToString()
+        {
+            return $"Typen er :{DyreNavn}";
+        }
     }
 }

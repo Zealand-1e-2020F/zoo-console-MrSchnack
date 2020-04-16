@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zoo_ConsoleApp
+namespace Zoo_ConsoleApp.Interface
 {
-    public class Insekt : Dyr
+    interface IRovDyr
     {
+        bool ErRovDyr();
     }
 }
